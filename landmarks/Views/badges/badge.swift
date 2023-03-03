@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct badge: View {
+struct Badge: View {
     var badgeSymbols: some View{
         ForEach(0..<8){index in
             RotatedBadgeSymbol(
@@ -30,6 +30,6 @@ struct badge: View {
 
 struct badge_Previews: PreviewProvider {
     static var previews: some View {
-        badge()
+        Badge()
     }
 }
